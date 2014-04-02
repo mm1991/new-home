@@ -65,7 +65,7 @@ class Home extends  CI_Controller {
 		{
 			$re_count = $this->test_model->user_count('news');
 		}
-		$pagesize = 5; //
+		/*$pagesize = 5; //
    		$count = ceil($re_count/$pagesize);//求出一共有多少页
    		$pages = $count; //显示最后一页
    		$init = 1;
@@ -167,7 +167,7 @@ class Home extends  CI_Controller {
 	}
 	$date['key'] = $key;
 	$date['count'] = $count;
-	$this->load->view('page',$date);
+	$this->load->view('page',$date);*/
  	}
  	function addnews_view()
  	{
